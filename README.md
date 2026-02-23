@@ -1,17 +1,17 @@
 # college-admin-app
 
-#Sample Documentation
+#Sample Documentation#
 Added these notes to the top of the .cs
 A bit sloppy, could use some restructuring, and a few more methods to copy reused code.
 
-#Recent Bug fixes / Features since last update
+#Recent Bug fixes / Features since last update#
 - Added labels to what menu user is in when typing in (some where not obvious)
 - Fixed double EntertoContinue when search by id retunred null
 - Added Personalized exit typing when adding marks, add no marks, exit says abort. add 1+ marks says done with marking
 - Added exit early (typing exit) for removing marks, updating marks.
 - Message on start up warrning french and spanish users to use period as decimal point and not a comma.
 
-#New Features
+#New Features#
 - Now uses dictionarys to store all consoleWrite strings, and is targeted by an Enum Key
 - Providing language Support For
     - English
@@ -24,7 +24,7 @@ A bit sloppy, could use some restructuring, and a few more methods to copy reuse
 - fixed null ordering in condition such as if ( student.Marks.Length == 0 || student.Marks == null )
 - type with mark: in MessageEnum.markFormat, "[Index: {0}, Mark: {1}]" } was missing colon
 
-#Key Features
+#Key Features#
 - The program loads from a file at the start and introduces a small animated timeout.
 - Update student information.
     - Select user by name or ID.
@@ -58,7 +58,7 @@ A bit sloppy, could use some restructuring, and a few more methods to copy reuse
 - Changed the grades data type to double and introduced rounding.
 - View students now has even and odd background banding for easier searching.
 
-#What to fix
+#What to fix#
 - Comments could be more robust
 
 - Exit is not available when removing marks and updating grades. need to add that function
