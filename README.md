@@ -58,7 +58,7 @@ Added these notes to the top of the .cs, A bit sloppy, could use some restructur
 # What still beeds to be fixed
 - Refactor classes into their own files
 - Use dictionary as XML instead of storing it in the .cs files
-- Create / Reuse textcolorize and string.Format for reducting colorCode methods scattered everywhere! (Sample ColorText type of method available in [Number Guesser](https://github.com/beaudoiin/number_guesser/tree/main)
+- Create / Reuse textcolorize and string.Format for reducting colorCode methods scattered everywhere! (Sample ColorText type of method available in [Number Guesser](https://github.com/beaudoiin/number_guesser/tree/main) [TextColorize](https://github.com/beaudoiin/number_guesser/blob/main/code-testing-area/reusable_menu/TextColorize.cs), not the most perfext, but I can combine it with that string, and with enums. maybe even make a ColoredWrite and ColoredWriteLine version.
 - Comments could be more robust
 - Exit is not available when removing marks and updating grades. need to add that function
 - Grades could be stored in a smaller data type like float.
