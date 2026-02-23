@@ -1,8 +1,5 @@
-# college-admin-app
-
-#Sample Documentation#
-Added these notes to the top of the .cs
-A bit sloppy, could use some restructuring, and a few more methods to copy reused code.
+# Simple Documentation for college-admin-app
+Added these notes to the top of the .cs, A bit sloppy, could use some restructuring.
 
 # Recent Bug fixes / Features since last update
 - Added labels to what menu user is in when typing in (some where not obvious)
